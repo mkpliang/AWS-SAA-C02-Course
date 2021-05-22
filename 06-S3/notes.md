@@ -462,9 +462,13 @@ Also charged a retrival fee for every GB of data retrieved from this class.
 Designed for data that isn't accessed often, long term storage, backups,
 disaster recovery files. The requirement for data to be safe is most important.
 
+This has 11, 9's for Object Durability and 4, 9's for availability.
+
 #### One Zone-IA
 
 Designed for data that is accessed less frequently but needed quickly.
+
+This has 11, 9's for Object Durability and 4, 9's for availability.
 
 80% of the base cost of Standard-IA.
 
