@@ -4607,6 +4607,12 @@ SQS
 
 ---
 
+### 1.13.10. Amazon cognito 
+- User pool 
+- Identity pool
+
+---
+
 ## 1.14. CDN-and-Optimization
 
 ### 1.14.1. Architecture Basics
