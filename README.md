@@ -3309,7 +3309,14 @@ There are three types of checks.
 - CloudWatch alarms
 - Checks of checks (calculated)
 
-### 1.9.3. Route 53 Routing Policies Examples
+### 1.9.3 CNAME vs R53 Alias
+CNAME: maps a NAME to another NAME www.catagram.io => catagram.io . However catagram.io cannot be mapped to another name using CNAME. Since AWS resource such as ELB returns a DNS name instead of IP address. 
+ALIAS: maps a NAME to an AWS resource. The record can be a normal record or a naked/apex record.
+- Default use ALIAS as it does the work of CNAME and it is free to use.
+- Should point to the same TYPE 
+
+
+### 1.9.4. Route 53 Routing Policies Examples
 
 - **Simple**: Route traffic to a single resource. Client queries the resolver
 which has one record. It will respond with 3 values and these get forwarded
