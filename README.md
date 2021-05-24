@@ -3314,7 +3314,7 @@ CNAME: maps a NAME to another NAME www.catagram.io => catagram.io . However cata
 ALIAS: maps a NAME to an AWS resource. The record can be a normal record or a naked/apex record.
 - Default use ALIAS as it does the work of CNAME and it is free to use.
 - Should point to the same TYPE 
-
+- Use it o point to API gateway dynamodb, elastic beanstalk, elb, global accelerator and s3
 
 ### 1.9.4. Route 53 Routing Policies Examples
 
